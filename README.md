@@ -1,1 +1,1 @@
-(https://github.com/Qiu800820/RoundProgressBar/blob/master/demos/Screenshot_2015-12-24-18-08-41.png)
+![](https://github.com/Qiu800820/RoundProgressBar/blob/master/demos/Screenshot_2015-12-24-18-08-41.png)
