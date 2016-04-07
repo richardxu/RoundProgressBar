@@ -14,7 +14,7 @@
         custom:textIsDisplayable="true"
         />
 ```
-![](https://github.com/Qiu800820/RoundProgressBar/blob/master/demos/Screenshot_HORIZONTAL.png)
+![](https://github.com/Qiu800820/RoundProgressBar/blob/master/demos/Screenshot_FILL.png)
 ```xml
 <com.sum.roundprogressbar.RoundProgressBar
         android:id="@+id/progress2"
@@ -30,7 +30,7 @@
         custom:textIsDisplayable="true"
         />
 ```
-![](https://github.com/Qiu800820/RoundProgressBar/blob/master/demos/Screenshot_FILL.png)
+![](https://github.com/Qiu800820/RoundProgressBar/blob/master/demos/Screenshot_HORIZONTAL.png)
 ```xml
 <com.sum.roundprogressbar.RoundProgressBar
         android:id="@+id/progress3"
@@ -48,18 +48,18 @@
 ```
 styleable
 ```xml
-        <attr name="roundColor" format="color"/>
-        <attr name="roundProgressColor" format="color"/>
-        <attr name="roundWidth" format="dimension"></attr>
-        <attr name="roundProgressWidth" format="dimension"></attr>
-        <attr name="textColor" format="color" />
-        <attr name="textSize" format="dimension" />
-        <attr name="max" format="integer"></attr>
-        <attr name="textIsDisplayable" format="boolean"></attr>
-        <attr name="style">
-            <enum name="STROKE" value="0"></enum>
-            <enum name="FILL" value="1"></enum>
-            <enum name="FILL_AND_STROKE" value="2"></enum>
-            <enum name="HORIZONTAL" value="3"></enum>
+        <attr name="roundColor" format="color"/><!-->进度条底色<-->
+        <attr name="roundProgressColor" format="color"/><!-->进度颜色<-->
+        <attr name="roundWidth" format="dimension"></attr><!-->进度条宽度<-->
+        <attr name="roundProgressWidth" format="dimension"></attr><!-->进度宽度<-->
+        <attr name="textColor" format="color" /><!-->中间文字颜色<-->
+        <attr name="textSize" format="dimension" /><!-->中间文字大小<-->
+        <attr name="max" format="integer"></attr><!-->最大进度值<-->
+        <attr name="textIsDisplayable" format="boolean"></attr><!-->是否显示中间文字<-->
+        <attr name="style"><!-->进度样式<-->
+            <enum name="STROKE" value="0"></enum><!-->外层圆弧进度 中间空心<-->
+            <enum name="FILL" value="1"></enum><!-->中间扇形进度 外层不变<-->
+            <enum name="FILL_AND_STROKE" value="2"></enum><!-->中间和外层扇形进度<-->
+            <enum name="HORIZONTAL" value="3"></enum><!-->中间水平进度 外层不变<-->
         </attr>
 ```
